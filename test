@@ -1,0 +1,6 @@
+var salary = +prompt('Please give your salary',1000);
+var perc=0;
+if(salary<1001){ perc=0.14; }
+else if(salary<1800){ perc=0.11; }
+else{ perc=0.07; }
+console.log('Amount of increase : ' + salary*perc);
